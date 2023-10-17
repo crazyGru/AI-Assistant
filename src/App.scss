@@ -1,0 +1,53 @@
+body {
+	min-height:100vh;
+	display:flex;
+	#root {
+		flex-grow: 1;
+		display:flex;
+		flex-direction: column;
+	}
+}
+
+.navigation-bar {
+	background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50vh;
+    font-size: 14px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+	min-width: 600px;
+}
+
+.navigation-bar-li {
+	color: rgb(151, 151, 151);
+    border-radius: 50vh;
+    padding: 10px 15px;
+    line-height: 1.5;
+	cursor: pointer;
+}
+.navigation-bar-ul{
+	display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: overlay;
+    white-space: nowrap;
+}
+.activate{	
+    background-color: #7c2fc9;
+	color:white;
+}
+.m_input_widget{
+	display: flex;
+}
+.first{
+	
+	margin:10px;
+	margin-left:100px;
+}
+.export_btn{
+	margin:10px;
+}
+
